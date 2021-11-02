@@ -5,12 +5,43 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/hero.css">
     <title>Riseloka - Reselling For Better Living</title>
 </head>
 <body>
-<h1>Riseloka</h1>
-
+<!--HERO-->
+<div class="hero">
+    <!--NAVBAR-->
+    <nav id="nav">
+        <a href="#">
+            <img class="logo" src="/assets/image/logo.png" alt="Riseloka">
+        </a>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">TENTANG</a></li>
+            <li><a href="#">CARA KERJA</a></li>
+            <li><a href="#">PRODUK</a></li>
+            <li><a href="#">KARIR</a></li>
+            <li><a href="#" class="search"><img src="/assets/image/search.svg" alt="Search"></a></li>
+        </ul>
+        <a class="menu-mobile" onclick="showMenu()" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <a href="#" class="close-menu" onclick="hideMenu()"><img src="/assets/image/close.svg" alt="Close"></a>
+    </nav>
+    <!--NAVBAR END-->
+    <!--CONTENT-->
+    <div class="content">
+        <h5>Kini siapapun<br>bisa berbisnis online!</h5>
+        <p>Tersedia ribuan produk ORIGINAL siap jual<br>langsung dari produsen.</p>
+        <button>Mulai bisnis sekarang</button>
+    </div>
+    <!--CONTENT END-->
+</div>
+<!--HERO END-->
 <script src="assets/script.js"></script>
 </body>
 </html>
